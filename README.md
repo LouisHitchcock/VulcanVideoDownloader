@@ -13,6 +13,7 @@ VulcanVideoDownloader is an easy-to-use Python script for downloading YouTube vi
 - Required Python libraries:
   - `pytube`
   - `ffmpeg` (for MP3 extraction)
+  - `yt_dlp`
 
 ## Installation
 
@@ -24,7 +25,7 @@ VulcanVideoDownloader is an easy-to-use Python script for downloading YouTube vi
 
 2. Install required Python libraries:
    ```bash
-   pip install pytube ffmpeg-python
+   pip install pytube ffmpeg-python yt_dlp
    ```
 
 3. Install `ffmpeg` (if not already installed). Follow the installation instructions on the [official website](https://ffmpeg.org/download.html).
